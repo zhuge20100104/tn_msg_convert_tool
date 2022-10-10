@@ -7,6 +7,13 @@ from utility.long_msg_converter import LongMsgConvertor
 def test_convert_long_msg_to_short():
     msg_files = get_message_files()
     for msg_file in msg_files:
+        print("")
+        print("----------------------------------------------------------------------------------")
+        print("Msg file name: " + msg_file)
         lng_msg_conv = LongMsgConvertor(msg_file)
         conv_res = lng_msg_conv.convert()
-    print("Result: " + conv_res)
+        print("Result: " + conv_res)
+        print("----------------------------------------------------------------------------------")
+        print("")
+    
+
