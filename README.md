@@ -28,6 +28,8 @@ And this functionality will integrate to the case editor in the future with comm
 
 + Put your message under the data folder with a ".txt" extension.
     Put the txt file you've got in the last step into the data folder as below. You can choose any name as you want. And you can put several txt files in the folder, the convertor will convert them one by one.
+
+    
     ![data folder](./imgs/data_folder.png)
 
 + Run the test and get your ShortDebugString in the console.
