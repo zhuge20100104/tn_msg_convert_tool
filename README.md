@@ -37,3 +37,20 @@ And this functionality will integrate to the case editor in the future with comm
     ```shell
     pytest -sv conv_msg_test.py::test_convert_long_msg_to_short
     ```
+
+     **Updates**
+
+    The tool also support convert json to debug string now. You should put your json file under the "./data" folder with a ".json" extension.
+
+    And then run the convertor and check the result on the console.
+    ```shell
+    pytest -sv conv_msg_test.py::test_convert_json_to_debug_string
+    ```
+    Notice that there are some limitation for the current json parser. It only supports  dictionary like json format, not support pure list like json format. But for our business, it's enough now, since each of our message has a common key "tmqHeader",  it should be a dictionary json format instead of pure list. If we have further requirements, I will add pure list like json format support then.
+    What is pure list like json, it's as belows,
+    ```
+    [
+        {"name": "ZhangSan", "age": 14, "grade": 3},
+        {"name": "Lisi", "age": 15, "grade": 4},
+    ]
+    ```

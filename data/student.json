@@ -1,0 +1,13 @@
+{
+    "name": "\"ZhangSan\"",
+    "age": 14,
+    "grade": 3,
+    "class_mates": [
+        {"name": "\"ZhangYin\"",  "age": 15, "grade": 4},
+        {"name": "\"LiNin\"",  "age": 16, "grade": 3}
+    ] ,
+    "sub_class_mates": [
+        {"name": "\"ZhangYin\"",  "age": 15, "grade": 4},
+        {"name": "\"LiNin\"",  "age": 16, "grade": 3}
+    ] 
+}
