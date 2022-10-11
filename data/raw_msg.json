@@ -1,0 +1,46 @@
+{
+	"tmq_header": {
+		"tmq_stamp": 1665371148720
+	},
+	"frame_list": [{
+			"timestamp": 1665371143404090302,
+			"index_type": "FRONT_CAMERA",
+			"name": "\"front camera\"",
+			"frame_descriptors": {
+				"encode": "RGBA32",
+				"width": 1280,
+				"height": 720
+			}
+		},
+		{
+			"timestamp": 1665371143404090565,
+			"index_type": "REAR_CAMERA",
+			"name": "\"rear camera\"",
+			"frame_descriptors": {
+				"encode": "RGBA32",
+				"width": 1280,
+				"height": 720
+			}
+		},
+		{
+			"timestamp": 1665371143404090718,
+			"index_type": "LEFT_CAMERA",
+			"name": "\"left camera\"",
+			"frame_descriptors": {
+				"encode": "RGBA32",
+				"width": 1280,
+				"height": 720
+			}
+		},
+		{
+			"timestamp": 1665371143404090846,
+			"index_type": "RIGHT_CAMERA",
+			"name": "\"right camera\"",
+			"frame_descriptors": {
+				"encode": "RGBA32",
+				"width": 1280,
+				"height": 720
+			}
+		}
+	]
+}

@@ -9,3 +9,4 @@ class LongMsgConvertor(object):
         for line in contents:
             content_ += line.replace("\n", " ").replace('"', '\\"')
         return content_
+    

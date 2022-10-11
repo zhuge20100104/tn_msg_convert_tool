@@ -9,4 +9,3 @@ def get_message_files(ext=".txt"):
             path_ = os.path.join(DATA_DIR, file_)
             paths.append(path_)
     return paths
-    
