@@ -11,7 +11,7 @@ class RetObj(object):
 class JsonStrConverter(object):
     def __init__(self, file_name):
         self.file_name = file_name
-   
+
     def convert(self):
         json_obj = None
         with open(self.file_name) as f:
