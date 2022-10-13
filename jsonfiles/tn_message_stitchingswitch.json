@@ -1,0 +1,13 @@
+{
+	"tmq_header": {
+		"tmq_stamp": 1665371148720
+	},
+	"enable_stitched_near": true,
+	"enable_stitched_medium": false,
+	" enable_stitched_far": true,
+	"enable_perspective_front": true,
+	"enable_perspective_rear": true,
+	"enable_perspective_left": true,
+	"enable_perspective_right": true,
+	"enable_blind_area_reset": true
+}

@@ -9,4 +9,6 @@ message Person {
     required int32 id = 2;
 
     required bool isok = 3;
+
+    required int32 grade = 4;
 }

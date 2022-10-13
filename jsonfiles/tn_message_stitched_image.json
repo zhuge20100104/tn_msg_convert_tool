@@ -1,0 +1,12 @@
+{
+    "tmq_header": {
+		"tmq_stamp": 1665371148720
+	},
+    "timestamp": 1665371148720,
+    "frame_descriptors": {
+        "encode": "RGB24",
+        "width": 512,
+        "height": 512,
+        "size_in_bytes": 786432 
+    }
+}

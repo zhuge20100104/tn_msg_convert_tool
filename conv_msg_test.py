@@ -48,13 +48,13 @@ def test_raw_protobuf_method():
     print(person_str)
     p1 = Person()
 
-    text = '''name: "Lisi" id: 20 isok: false'''
+    text = '''name: "Lisi" id: 20 isok: false grade: 3'''
     text_format.Parse(text, p1)
 
     print(str(p1))
 
     p2 = Person()
-    js_text = '''{"name": "Zhangsan", "id": 20, "isok": true}'''
+    js_text = '''{"name": "Zhangsan", "id": 20, "isok": true, "grade": 4}'''
     json_format.Parse(js_text, p2)
     res = str(p2) 
     print(res)   
